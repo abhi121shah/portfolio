@@ -1,0 +1,113 @@
+main{
+    background-image: url("C:/Users/Abhijeet/Btech/dev/E-portfoio/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg");
+    height:35vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+
+}
+
+.sidenav {
+  background-color: #5a5151;
+  overflow: hidden;
+  caption-side: top;
+}
+ .sidenav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ }
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+ }
+.sidenav a.active {
+  background-color: #04AA6D;
+  color: white;
+}  
+h1
+{
+    text-align: center;
+    font-size: 3em;
+    background-color: aliceblue;
+    
+}
+h2{
+    background-color: aliceblue;
+    text-align: center;
+}
+h2
+{
+    background-color: aliceblue;
+    text-align: center;
+}
+li{ 
+    shape-rendering: crispEdges;
+    background-color: aliceblue;
+    text-align: center;
+}
+h3{
+    font-size: x-large;
+    background-color: aliceblue;
+}
+
+p1{
+    background-color: blue;
+    
+}
+@keyframes appear
+{
+    from{
+    opacity: 0;
+    scale:0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.view{
+    animation:appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+footer{
+    background: size 200px;
+    background-color: cornflowerblue;
+}
+@keyframes slide-across {
+    from{
+        transform:translateY(500px)
+
+    }
+    to{
+        transform: translateY(-50px);
+    }
+    
+}
+.views
+{
+    animation-name: slide-across;
+    animation-timeline: view();
+    animation-fill-mode: both;
+    animation-range:entry 0% cover 100% ;
+}
+@keyframes skill {
+    from{
+        transform:translateX(1500px)
+
+    }
+    to{
+        transform: translateX(-500px);
+    }
+}
+.skills
+{
+    animation-name: skill;
+    animation-timeline: view();
+    animation-fill-mode: both;
+    animation-range:entry 0% cover 100% ;
+}
