@@ -96,7 +96,7 @@ footer{
 }
 @keyframes skill {
     from{
-        transform:translateX(1500px)
+        transform:translateX(1000px)
 
     }
     to{
@@ -110,6 +110,7 @@ footer{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
+
 
 
 
