@@ -1,9 +1,5 @@
 main{
-    background-image: url("https://drive.google.com/file/d/1NiP0pouayWuwVX44oiPW-jpCRIhqfMuh/view?usp=drive_link");
-    height:35vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 110%;
+    <image src="Peach HR Manager LinkedIn Banner - Made with PosterMyWall";
 
 }
 
@@ -111,6 +107,7 @@ footer{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
+
 
 
 
