@@ -1,1 +1,1 @@
-alert("E-Portfolio Under Devlopment")
+alert("This web page is under Devlopment")
