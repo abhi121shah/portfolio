@@ -100,7 +100,7 @@ footer{
 
     }
     to{
-        transform: translateX(-500px);
+        transform: translateX(-1px);
     }
 }
 .skills
@@ -111,24 +111,7 @@ footer{
     animation-range:entry 0% cover 100% ;
 }
 
-@keyframes s {
-    from{
-        transform:translateX(1500px)
 
-    }
-    to{
-        transform: translateX(-500px);
-    }
-}
-.s
-{
-    animation-name: s;
-    animation-timeline: view();
-    animation-fill-mode: both;
-    animation-range:entry 0% cover 100% ;
-}
-
-  
 
 
 
