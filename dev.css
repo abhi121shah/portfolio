@@ -1,4 +1,4 @@
-main{https://github.com/abhi121shah/portfolio/blob/main/Peach%20HR%20Manager%20LinkedIn%20Banner%20-%20Made%20with%20PosterMyWall.jpg
+main{
   background-image: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg");
     height:35vh;
     background-repeat: no-repeat;
@@ -110,6 +110,7 @@ footer{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
+
 
 
 
