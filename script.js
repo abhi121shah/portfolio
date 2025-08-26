@@ -1,1 +1,1 @@
-alert("Abhijeet E-portfolio is under Devlopment")
+alert("This web page is under Devlopment")
