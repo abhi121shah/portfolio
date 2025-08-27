@@ -6,12 +6,12 @@
 }
 
 body {
+    
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #f8f9fa;
   color: #333;
 }
-
 /* Navbar */
 .sidenav {
   background-color: #5a5151;
@@ -41,10 +41,11 @@ body {
 
 /* Hero Section */
 .hero {
+    
   text-align: center;
   padding: 2rem 1rem;
-  background: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg") no-repeat center center/cover;
-  color: white;
+  
+  color: rgb(159, 213, 236);
 }
 
 /* Video */
