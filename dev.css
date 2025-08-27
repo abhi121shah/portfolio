@@ -1,24 +1,22 @@
 main{
-    background-image: url(""https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg");
+  background-image: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg");
     height:35vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 110%;
-
 }
-
 .sidenav {
   background-color: #5a5151;
   overflow: hidden;
   caption-side: top;
 }
+
  .sidenav a {
   float: left;
   color: #f2f2f2;
   text-align: center ;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+font-size: 17px;
  }
 .sidenav a:hover {
   background-color: #ddd;
@@ -97,11 +95,11 @@ footer{
 }
 @keyframes skill {
     from{
-        transform:translateX(1500px)
+        transform:translateX(1000px)
 
     }
     to{
-        transform: translateX(-500px);
+        transform: translateX(-1px);
     }
 }
 .skills
@@ -111,4 +109,3 @@ footer{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
-
