@@ -1,4 +1,4 @@
-/* Reset some defaults */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +8,9 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  padding: 10px;
 }
 
-/* Sidebar */
+/* Sidebar navigation */
 .sidenav {
   width: 200px;
   position: fixed;
@@ -40,20 +39,13 @@ main, h1, h2, .view, .views, .skills, .s, footer {
   padding: 10px;
 }
 
-/* Video */
-video {
+/* Banner / images / video responsive */
+img, video {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
-}
-
-/* Images */
-.skills img,
-.s img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px 0;
-  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
 }
 
 /* Footer */
@@ -65,24 +57,29 @@ footer {
   font-size: 14px;
 }
 
-/* ---------------- Mobile Responsive Fixes ---------------- */
+/* ---------------- Responsive Fixes ---------------- */
 @media (max-width: 768px) {
   .sidenav {
     width: 100%;
     height: auto;
     position: relative;
+    display: flex;
+    justify-content: center;
+    background: #111;
   }
 
   .sidenav a {
-    float: left;
-    padding: 8px;
+    float: none;
+    padding: 10px;
     font-size: 14px;
   }
 
+  /* Remove left margin so content fits screen */
   main, h1, h2, .view, .views, .skills, .s, footer {
-    margin-left: 0; /* remove sidebar gap */
+    margin-left: 0;
   }
 
+  /* Stack skill/project images vertically */
   .s {
     display: flex;
     flex-direction: column;
@@ -97,9 +94,11 @@ footer {
 @media (max-width: 480px) {
   h1 {
     font-size: 22px;
+    text-align: center;
   }
   h2 {
     font-size: 16px;
+    text-align: center;
   }
   .sidenav a {
     font-size: 12px;
