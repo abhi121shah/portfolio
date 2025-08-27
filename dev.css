@@ -45,7 +45,7 @@ h2
 li{ 
     shape-rendering: crispEdges;
     background-color: aliceblue;
-    text-align: center;
+    
 }
 h3{
     font-size: x-large;
@@ -92,7 +92,7 @@ p1{
 }
 @keyframes skill {
     from{
-        transform:translateX(1000px)
+        transform:translateX(500px)
 
     }
     to{
@@ -106,7 +106,22 @@ p1{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
+@keyframes slide{
+    from{
+        transform:translateX(500px)
 
+    }
+    to{
+        transform: translateX(-500px);
+    }
+}
+.slide
+{
+    animation-name: slide;
+    animation-timeline: view();
+    animation-fill-mode: both;
+    animation-range:entry 0% cover 100% ;
+}
 
 
 
