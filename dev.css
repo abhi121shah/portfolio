@@ -92,7 +92,7 @@ p1{
 }
 @keyframes skill {
     from{
-        transform:translateX(500px)
+        transform:translateX(100px)
 
     }
     to{
@@ -122,6 +122,7 @@ p1{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
+
 
 
 
