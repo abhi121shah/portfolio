@@ -72,10 +72,7 @@ p1{
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
-footer{
-    background: size 200px;
-    background-color: cornflowerblue;
-}
+
 @keyframes slide-across {
     from{
         transform:translateY(500px)
@@ -109,3 +106,4 @@ footer{
     animation-fill-mode: both;
     animation-range:entry 0% cover 100% ;
 }
+
