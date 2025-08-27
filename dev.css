@@ -43,7 +43,10 @@ body {
 .hero {
       background: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg") no-repeat center center/cover;
 }
-
+.info
+{
+  colour:aqua;
+}
 /* Video */
 .video-section {
   display: flex;
@@ -128,4 +131,5 @@ footer a:hover {
     flex-direction: column;
   }
 }
+
 
