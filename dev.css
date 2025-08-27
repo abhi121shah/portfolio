@@ -6,27 +6,52 @@
 }
 
 body {
-    
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #f8f9fa;
   color: #333;
 }
-/* Navbar */
+
+/* Menu Button */
+.menu-btn {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  background: #04AA6D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+  border-radius: 6px;
+  padding: 5px 12px;
+}
+
+.menu-btn:hover {
+  background: #028a57;
+}
+
+/* Sidebar Navigation */
 .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
   background-color: #5a5151;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 60px;
+  z-index: 1000;
 }
 
 .sidenav a {
-  color: #f2f2f2;
+  padding: 12px 24px;
   text-decoration: none;
-  margin: 0 10px;
-  padding: 10px 15px;
-  font-size: 16px;
-  border-radius: 5px;
+  font-size: 18px;
+  color: #f2f2f2;
+  display: block;
+  transition: 0.3s;
 }
 
 .sidenav a:hover {
@@ -34,16 +59,21 @@ body {
   color: black;
 }
 
-.sidenav a.active {
-  background-color: #04AA6D;
+.sidenav .closebtn {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 36px;
   color: white;
 }
 
-
-.info
-{
-  colour:aqua;
+/* Hero Section */
+.hero {
+  padding: 6rem 1rem;
+  background: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg") no-repeat center center/cover;
+  
 }
+
 /* Video */
 .video-section {
   display: flex;
@@ -114,7 +144,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ✅ Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
@@ -128,6 +158,3 @@ footer a:hover {
     flex-direction: column;
   }
 }
-
-
-
