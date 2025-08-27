@@ -125,10 +125,13 @@ body {
 
 /* Footer */
 footer {
-  background: #5a5151;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/gehu.jpg");
+  color: black;
+  text-align: left;
+  font-size: large;
+  padding: 4rem;
 }
 
 footer ul {
@@ -158,3 +161,4 @@ footer a:hover {
     flex-direction: column;
   }
 }
+
