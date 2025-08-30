@@ -1,5 +1,5 @@
 /* Reset */
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -127,7 +127,7 @@ body {
 footer {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/gehu.jpg");
+  background-image: url("C:/Users/Abhijeet/Btech/dev/E-portfoio/gehu.jpg");
   color: black;
   text-align: left;
   font-size: large;
@@ -148,12 +148,20 @@ footer a:hover {
 }
 
 /* Responsive */
+h1{
+  color: #498ce4;
+}
+h2{
+  color: #2e2b2b;
+}
 @media (max-width: 768px) {
   h1 {
+  
     font-size: 2rem;
   }
 
   h2 {
+    
     font-size: 1.2rem;
   }
 
@@ -161,4 +169,47 @@ footer a:hover {
     flex-direction: column;
   }
 }
+button{
+  shape-rendering: geometricPrecision;
+  shape-outside: circle(100);
+  vector-effect: calc(100);
+}
+.btn { 
+ 
+  scroll-padding-block-end: 50%;
+  border-style: dotted;
+  border-radius: 50%;
+  background-color: #ddd;
+  border: none;
+  color: rgb(155, 237, 158);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  shape-outside: circle();
+}
 
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+
+}
+@keyframes sk {
+  from
+  {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to
+  {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+}
+.skill
+{
+  animation:sk both;
+  animation-timeline: view();
+}
