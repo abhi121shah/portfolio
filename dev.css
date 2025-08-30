@@ -127,7 +127,7 @@ body {
 footer {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("C:/Users/Abhijeet/Btech/dev/E-portfoio/gehu.jpg");
+  background-image: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/gehu.jpg");
   color: black;
   text-align: left;
   font-size: large;
@@ -213,3 +213,4 @@ button{
   animation:sk both;
   animation-timeline: view();
 }
+
