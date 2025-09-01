@@ -1,134 +1,163 @@
-/* Reset */
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background: #f8f9fa;
-  color: #333;
-}
-
-/* Menu Button */
-.menu-btn {
-  position: fixed;
-  top: 15px;
-  right: 20px;
-  font-size: 30px;
-  background: #04AA6D;
-  color: white;
-  border: none;
-  cursor: pointer;
-  z-index: 1001;
-  border-radius: 6px;
-  padding: 5px 12px;
-}
-
-.menu-btn:hover {
-  background: #028a57;
-}
-
-/* Sidebar Navigation */
-.sidenav {
   height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #5a5151;
-  overflow-x: hidden;
-  transition: 0.4s;
-  padding-top: 60px;
-  z-index: 1000;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+.navbar
+{
+    background-color: rgb(95, 142, 250);font-family: calibari;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo b{
+  font-size: 35px;font-weight: 600;color: #fff;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li b{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button{
+    background-color: #000;margin-left: 10px;border-radius: 10px;padding: 10px;width: 90px;
+}
+button a{
+    color: #fff;font-weight: bold;font-size:15px ;
+}
+.container {
+  position: relative;
+  height: 100vh; 
+  width: 100%;
+  overflow: hidden;
 }
 
-.sidenav a {
-  padding: 12px 24px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #f2f2f2;
-  display: block;
-  transition: 0.3s;
+.background-clip {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
 }
 
-.sidenav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.sidenav .closebtn {
+.content {
   position: absolute;
-  top: 15px;
-  left: 20px;
-  font-size: 36px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
+  text-align: center;
+  z-index: 1;
 }
 
-/* Hero Section */
-.hero {
-  padding: 6rem 1rem;
-  background: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/Peach HR Manager LinkedIn Banner - Made with PosterMyWall.jpg") no-repeat center center/cover;
+.content h1{
+    font-size: 95px;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+.content h2{
+    font-size: 20px;
+    color: aquamarine;
+    padding:40px 10px;
+}
+.content a{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border:2px solid #fff;
+    padding:15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.content a:hover
+{
+    background-color: aqua;
+    color: black;
+}
+
+.next-section {
+  min-height: 100vh;
+  padding: 60px;
+  background-color: #020531;
+  color: #ffffff;
+  text-align: center;
   
 }
-
-/* Video */
-.video-section {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
+.intro
+{
+    background-color: navy;
+    border:2px solid #fff;
+    padding:15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.text{
+    display: inline-block;
+}
+.text{
+font-size: 2em;
+letter-spacing: 5px;
+font-family: monospace;
+width: 100%;
+word-wrap: break-word; 
+  line-height: 1.6;  
+overflow: hidden;
+animation: 
+typing 2s step(131),
+cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50%{border-color: transparent;}
+    
+}
+@keyframes typing {
+    from{width: 0;}
+    
 }
 
-.video-section video {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-/* About */
-.about {
-  padding: 2rem;
-  text-align: center;
-  background: #fff;
-  margin: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* Skills */
 .skills {
   display: flex;
   justify-content: center;
   padding: 2rem;
 }
-
-.skills img {
-  max-width: 90%;
-  height: auto;
+.skills h2{
+    font-size: 50px;
 }
-
-/* Projects */
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
+.rotate
+{
+  animation:Auto ;
+  animation-timeline: view();
 }
-
-.projects img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+@keyframes Auto {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(365deg);
+    }
+    
 }
-
-/* Footer */
 footer {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("https://raw.githubusercontent.com/abhi121shah/portfolio/main/gehu.jpg");
-  color: black;
+background-color: rgb(0, 0, 0);
+  color: rgb(52, 194, 255);
   text-align: left;
   font-size: large;
   padding: 4rem;
@@ -146,48 +175,10 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
-/* Responsive */
-h1{
-  color: #498ce4;
-}
-h2{
-  color: #2e2b2b;
-}
-@media (max-width: 768px) {
-  h1 {
-  
-    font-size: 2rem;
-  }
-
-  h2 {
-    
-    font-size: 1.2rem;
-  }
-
-  .projects {
-    flex-direction: column;
-  }
-}
 button{
   shape-rendering: geometricPrecision;
   shape-outside: circle(100);
   vector-effect: calc(100);
-}
-.btn { 
- 
-  scroll-padding-block-end: 50%;
-  border-style: dotted;
-  border-radius: 50%;
-  background-color: #ddd;
-  border: none;
-  color: rgb(155, 237, 158);
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition: 0.3s;
-  shape-outside: circle();
 }
 
 .btn:hover {
@@ -195,21 +186,15 @@ button{
   color: white;
 
 }
-@keyframes sk {
-  from
-  {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  to
-  {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  
+/* Video */
+.video-section {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
-.skill
-{
-  animation:sk both;
-  animation-timeline: view();
+
+.video-section video {
+  max-width: 40%;
+  max-height: 70%;
+  border-radius: 20px;
 }
